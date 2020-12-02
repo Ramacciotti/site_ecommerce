@@ -1,0 +1,1129 @@
+/* DEFAULT | GRID DO SITE                                                                                                                                */
+
+    /* #region | GRID ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    
+        /* CONTAINER */
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column; 
+            margin: 0;
+            padding: 0;
+        } 
+    
+    /* #endregion GRID DO SITE */
+
+/* RESOLUCAO |                                                                                                                                        */
+          
+    /* #region | DESKTOP ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    @media only screen and (min-width : 768px) {  
+          
+        /* #region | HEADER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* FAZ PARTE DO GRID DO BODY */
+                #HEADER_CONTAINER{  
+                    flex: 1; 
+                    background-color: #F8F8F8;
+                }  
+            
+            /* #endregion SECTION */ 
+
+            /* #region > NAVBAR vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER DO NAVBAR */
+                    #NAVBAR_CONTAINER{              
+                        height: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 80px;
+                        padding-right: 80px; 
+                        background-color: #F8F8F8;
+                    }     
+
+                /* #endregion CONTAINER */ 
+
+                /* #region > LINHA UM ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LINHA_UM{  
+                        flex:1;  
+                        height: 100%;
+                        display: flex;  
+                        flex-direction: row; 
+                        align-items: center;  
+                        gap:5px;                        
+                    }     
+              
+                    /* #region > LOGO ----------------------------------------------------------------------------------------------------------------------- */  
+
+                        /* CONTAINER */
+                        #NAVBAR_LOGO{
+                            flex-basis: 5%;
+                        }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LOGO > img{                                
+                                width: 125px;  
+                                padding-top: 5px;    
+                            }
+
+                    /* #endregion LOGO */ 
+
+                    /* #region > LISTA ----------------------------------------------------------------------------------------------------------------------- */ 
+                            
+                        /* CONTAINER */    
+                        #NAVBAR_LISTA{
+                            flex-basis: 90%;                      
+                            text-align: right;   
+                            margin-right: 5px;  
+                        }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LISTA > ul{
+                                display: inline-block;
+                                list-style-type: none;
+                            }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LISTA > ul > li{
+                                display: inline-block;
+                                margin-left: 20px;
+                            }  
+
+                    /* #endregion LISTA */
+
+                    /* #region > CARRINHO ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_CARRINHO{
+                            flex-basis: 5%;   
+                            text-align: right;
+                            margin-top: 2px;
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */    
+                        #NAVBAR_CARRINHO > img{
+                            width: 25px;
+                            height: 25px;
+                        }
+
+                    /* #endregion CARRINHO */
+
+                    /* #region > ICONE ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_LATERAL_ICONE{
+                            display: none;    
+                        }
+
+                    /* #endregion ICONE */
+    
+                /* #endregion LINHA UM */ 
+
+                /* #region > LINHA DOIS ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LATERAL_LISTA{  
+                        flex:1;  
+                        background-color: yellow;
+                        display: none;
+                    }     
+
+                /* #endregion LINHA DOIS */ 
+           
+            /* #endregion NAVBAR */            
+             
+            /* #region > CLASSES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+                        
+                /* ELEMENTO */
+                .NAVBAR_MENU_LATERAL{
+                    width: 25px;
+                    height: 25px;
+                    margin-top:5px;                    
+                }
+            
+            /* #endregion CLASSES */
+
+        /* #endregion HEADER */
+
+        /* #region | PRODUTO cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                      
+                /* CONTAINER */
+                #PRODUTO_CONTAINER{ 
+                    flex: 1;  
+                    display: flex;                    
+                    flex-direction: row;     
+                    padding-right: 80px;                    
+                    padding-left: 80px;   
+                    padding-top: 40px;
+                    padding-bottom: 40px;        
+                }  
+
+            /* #endregion CONTAINER */
+
+            /* #region > PRODUTO FOTO [ C1 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* #region > CONTAINER ------------------------------------------------------------------------------------------------------------------------*/   
+
+                    /* CONTAINER */
+                    #PRODUTO_IMAGEM{
+                        flex:1;     
+                        display: flex;
+                        flex-direction: column; 
+                        align-items: flex-end;
+                        justify-content: flex-end;
+                    }
+
+                /* #endregion CONTAINER */     
+                
+                /* #region > FOTO PRINCIPAL [ L1 ] ------------------------------------------------------------------------------------------------------------------------*/   
+
+                    /* CONTAINER */
+                    #IMAGEM_PRINCIPAL{
+                        flex: 1;   
+                        display: flex;  
+                        flex-direction: row;                            
+                        background-color: purple;                    
+                    }
+
+                    /* ELEMENTO */
+                    #FOTO_PRINCIPAL{
+                        width: 75%;
+                    }                    
+
+                /* #endregion FOTO PRINCIPAL */ 
+
+                /* #region > FOTOS SECUNDÁRIAS [ L2 ] ------------------------------------------------------------------------------------------------------------------------*/   
+
+                    /* #region > CONTAINER ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                      
+                        /* CONTAINER */
+                        #IMAGEM_SECUNDARIAS{
+                            flex: 1;  
+                            display: flex;
+                            flex-direction: row;
+                            gap: 5px;
+                        }
+
+                    /* #endregion CONTAINER */  
+
+                    /* #region > ELEMENTOS ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                      
+                        /* ELEMENTO */
+                        .OUTRAS_FOTOS{      
+                            max-width: 100px;       
+                        }
+
+                    /* #endregion ELEMENTOS */  
+                 
+                /* #endregion FOTOS SECUNDÁRIAS */
+
+            /* #endregion PRODUTO FOTO */
+
+            /* #region > PRODUTO DESCRICAO [ C2 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+             
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #PRODUTO_DESCRICAO{                
+                        flex:1;  
+                        display: flex;
+                        flex-direction: column;
+                        align-items: left;          
+                        text-align: left;
+                    } 
+
+                /* #endregion CONTAINER */
+
+                /* #region > TITULO [ L1 ] ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* #region > CONTAINER ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                    
+                        /* CONTAINER */
+                        #DESCRICAO_TITULO{                
+                            flex:1;   
+                        } 
+
+                    /* #endregion CONTAINER */   
+                    
+                    /* #region > ELEMENTOS ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                    
+                        /* ELEMENTO */
+                        #DESCRICAO_TITULO > p{     
+                            font-size: 0.85em;
+                            margin-top:20px;
+                            margin-bottom: -25px;
+                        } 
+
+                        /* ELEMENTO */
+                        #DESCRICAO_TITULO > h1{     
+                            font-size: 2.3em;
+                            margin-bottom: -5px;
+                        } 
+
+                        /* ELEMENTO */
+                        #DESCRICAO_TITULO > h4{     
+                            font-size: 0.85em;
+                        } 
+
+                        /* ELEMENTO */
+                        #DESCRICAO_TITULO > select{     
+                            padding: 5px;
+                            border: 1px solid #EF2210;
+                        } 
+
+                        /* ELEMENTO */
+                        #DESCRICAO_TITULO > select:hover{     
+                            outline: none;    
+                        } 
+
+                    /* #endregion ELEMENTOS */    
+
+                /* #endregion TITULO */
+
+                /* #region > QUANTIDADE [ L2 ] ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* #region > CONTAINER ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                    
+                        /* CONTAINER */
+                        #DESCRICAO_QUANTIDADE{                
+                            flex:1; 
+                            display: flex;
+                            flex-direction: row;   
+                            align-content: center;
+                            margin-top:10px;
+                            margin-bottom:10px;
+                        } 
+
+                    /* #endregion CONTAINER */
+
+                    /* #region > COLUNA 1 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                    #DESCRICAO_QUANTIDADE > #QUANTIDADE_NUMERO{ 
+                        flex:1; 
+                    }
+
+                        /* A) ELEMENTO */
+                        #DESCRICAO_QUANTIDADE > #QUANTIDADE_NUMERO > p{                         
+                            display: flex;                        
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid #EF2210;
+                            width: 40px;
+                            height: 40px;          
+                            cursor: pointer;            
+                        } 
+
+                    /* #endregion COLUNA 1 */    
+
+                    /* #region > COLUNA 2 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                    
+                        /* CONTAINER */
+                        #QUANTIDADE_BOTAO{
+                            flex: 7;
+                            display: flex;
+                            justify-content: left;
+                            align-items: center;
+                        }
+                    
+                        /* ELEMENTO */
+                        #QUANTIDADE_BOTAO > button{ 
+                            text-align: center;  
+                            color: white;
+                            width: 190px;
+                            background-color: #EF2210;
+                            height: 50px;     
+                            border:none;
+                            border-radius: 30px;
+                            transition: background 0.5s;
+                            cursor: pointer;     
+                            padding-right: 30px;
+                            padding-left: 30px; 
+                        } 
+
+                    /* #endregion COLUNA 2 */
+
+                /* #endregion QUANTIDADE */
+
+                /* #region > TEXTO [ L3 ] ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* #region > CONTAINER ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                    
+                        /* CONTAINER */
+                        #DESCRICAO_TEXTO{                
+                            flex:1;      
+                        } 
+
+                    /* #endregion CONTAINER */    
+
+                    /* #region > ELEMENTOS ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+                    
+                        /* ELEMENTO */
+                        #DESCRICAO_TEXTO > h4{                
+                            font-size: 1em; 
+                            margin-top:-5px;
+                            margin-bottom: 5px;
+                        } 
+
+                        /* ELEMENTO */
+                        #DESCRICAO_TEXTO > p{                
+                            font-size: 0.9em; 
+                        } 
+
+                    /* #endregion ELEMENTOS */   
+
+                /* #endregion TEXTO */
+                
+            /* #endregion PRODUTO DESCRICAO */    
+
+        /* #endregion PRODUTO */
+        
+        /* #region | FOOTER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_CONTAINER{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;  
+                    justify-content: center;
+                    background-color: black;
+                    font-size: 0.8em;                    
+                }   
+
+            /* #endregion CONTAINER */ 
+
+            /* #region > ITENS [ LINHA 1 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_ITENS{
+                    flex:1;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    padding-right: 100px;
+                    padding-left: 100px;
+                    padding-top: 40px;
+                    gap:20px;   
+                    text-align: center; 
+                    margin-bottom: 10px;             
+                }   
+
+                /* #region > DOWNLOAD ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_DOWNLOAD{
+                        flex:1;
+                    }  
+
+                /* #endregion DOWNLOAD */
+
+                /* #region > MISSAO ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_MISSAO{
+                        flex:1;
+                    }   
+
+                    /* CONTAINER */
+                    #FOOTER_MISSAO > img{
+                        width: 180px;
+                    }
+
+                /* #endregion MISSAO */
+
+                /* #region > LINKS ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_LINKS{
+                        flex:1;
+
+                    } 
+                    
+                    /* ELEMENTO */
+                    #FOOTER_LINKS > ul{
+                        list-style-type: none;
+                        margin-left: -40px;
+                    } 
+
+                /* #endregion LINKS */
+
+                /* #region > SOCIAL MEDIA ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_SOCIAL_MEDIA{
+                        flex:1;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul > li{
+                        margin-left: -40px;
+                    } 
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul{
+                        list-style-type: none;
+                    }
+
+                /* #endregion SOCIAL MEDIA */
+
+            /* #endregion ITENS [ LINHA 1 ] */ 
+
+            /* #region > ITENS [ LINHA 2 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_COPYRIGHT{
+                    flex:1; 
+                    text-align: center;  
+                    border-top: 1px solid rgb(43, 43, 43);  
+                    margin-top:-10px; 
+                    padding-top:10px;       
+                    padding-bottom:10px;       
+                } 
+
+            /* #endregion ITENS [ LINHA 2 ] */ 
+
+            /* #region > CLASSES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* ELEMENTO */
+                .PARAGRAFO_CINZA{
+                    color: rgb(95, 95, 95);
+                } 
+
+                /* ELEMENTO */
+                .TITULO_BRANCO{
+                    color: white;
+                } 
+
+                /* ELEMENTO */
+                .APP_LOGO {
+                    margin-top:20px;
+                }
+
+                /* ELEMENTO */
+                .APP_LOGO img {
+                    width: 110px;
+                }
+
+            /* #endregion CLASSES */ 
+                
+        /* #endregion FOOTER */     
+    
+    }
+
+    /* #endregion DESKTOP */     
+    
+    /* #region | MOBILE ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    @media only screen and (max-width : 768px) {  
+
+        /* #region | HEADER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* FAZ PARTE DO GRID DO BODY */
+                #HEADER_CONTAINER{  
+                    flex: 1; 
+                    display: flex;
+                    flex-direction: row;
+                    background-color: #F8F8F8;
+                    min-height: 80px;
+                }  
+            
+            /* #endregion SECTION */    
+
+            /* #region > NAVBAR vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER DO NAVBAR */
+                    #NAVBAR_CONTAINER{   
+                        flex: 1;            
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                    }     
+
+                /* #endregion CONTAINER */ 
+
+                /* #region > LINHA UM ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LINHA_UM{  
+                        flex:1;  
+                        height: 100%;
+                        display: flex;  
+                        flex-direction: row; 
+                        align-items: center; 
+                        gap:20px;
+                        padding-right:20px;
+                        padding-left:20px;
+                    }     
+              
+                    /* #region > LOGO ----------------------------------------------------------------------------------------------------------------------- */  
+
+                        /* CONTAINER */
+                        #NAVBAR_LOGO{
+                            flex-basis: 90%;
+                        }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LOGO > img{                                
+                                width: 125px;  
+                                padding-top: 5px;    
+                            }
+
+                    /* #endregion LOGO */ 
+
+                    /* #region > LISTA ----------------------------------------------------------------------------------------------------------------------- */ 
+                            
+                        /* CONTAINER */    
+                        #NAVBAR_LISTA{
+                            display: none; 
+                        }
+
+                    /* #endregion LISTA */
+
+                    /* #region > CARRINHO ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_CARRINHO{
+                            flex-basis: 5%;   
+                            text-align: right;
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */    
+                        #NAVBAR_CARRINHO > img{                            
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                    /* #endregion CARRINHO */
+
+                    /* #region > ICONE ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_LATERAL_ICONE{
+                            flex-basis: 5%;  
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */    
+                        #NAVBAR_LATERAL_ICONE > img{
+                            padding-top:4px;
+                            width: 28px;
+                            height: 30px;
+                        }
+
+                    /* #endregion ICONE */
+    
+                /* #endregion LINHA UM */ 
+
+                /* #region > LINHA DOIS ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LATERAL_LISTA{  
+                        flex:1;  
+                        background-color: #333;
+                        margin-bottom: -40px;
+                        margin-top: -7px;
+                        text-align: right;
+                    }  
+
+                    /* ELEMENTO */
+                    #NAVBAR_LATERAL_LISTA > ul{
+                        list-style-type: none;   
+                        padding-bottom: 15px;
+                        padding-top: 5px;
+                    }    
+                    
+                    /* ELEMENTO */
+                    #NAVBAR_LATERAL_LISTA > ul > li{
+                        margin-top: 10px;
+                        color:white;
+                        padding-right: 30px;                        
+                    } 
+
+                /* #endregion LINHA DOIS */ 
+           
+            /* #endregion NAVBAR */          
+
+            /* #region > CAPA vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+    
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------------------- */
+                    
+                    /* SECTION */
+                    #CAPA_CONTAINER{ 
+                        display: flex;
+                        text-align: center;
+                        flex-direction: column; 
+                        align-items:center;        
+                        justify-content: center;
+                        padding-left: 20px;
+                        padding-right: 20px;          
+                    }
+
+                /* #endregion CONTAINER */
+
+                /* #region > TITULO ----------------------------------------------------------------------------------------------------------------------------------- */
+                   
+                    /* CONTAINER */
+                    #CAPA_TITULO{
+                        flex: 1;  
+                    }
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > h1{
+                            font-size: 3.2em;
+                            line-height: 60px;
+                            margin-top: 40px;
+                            margin-bottom: 0px;
+                        }  
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > #BOTAO_EXPLORAR {
+                            display: inline-block;
+                            color:white;
+                            background-color: #EF2210;                       
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            padding-right: 30px;
+                            padding-left: 30px;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            border:none;
+                            border-radius: 30px;
+                            transition: background 0.5s;
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > #BOTAO_EXPLORAR:hover {
+                            background: #563434;
+                        }
+
+                /* #endregion COLUNA UM */    
+
+                /* #region > IMAGEM ----------------------------------------------------------------------------------------------------------------------------------- */
+                        
+                    /* CONTAINER */    
+                    #CAPA_FOTO{
+                        flex: 1;  
+                    }    
+
+                        /* ELEMENTO */
+                        #CAPA_FOTO > img{
+                            min-width: 300px;
+                            max-width: 60%;
+                            margin-top:30px;
+                            margin-bottom: 30px;
+                        }   
+                        
+                /* #endregion COLUNA DOIS */         
+            
+        /* #endregion HEADER */
+           
+        /* #endregion HEADER */
+
+        /* #region | PRODUTOS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                      
+                /* CONTAINER */
+                #PRODUTOS_CONTAINER{ 
+                    flex: 1;  
+                    flex-direction: column;       
+                    justify-content: center;   
+                    gap: 30px;
+                    text-align: center;
+                    margin-bottom: 30px;   
+                    height: auto;                 
+                }  
+
+            /* #endregion CONTAINER */
+
+            /* #region > TITULO [ LINHA 1 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                    
+                /* #region > CONTAINER ------------------------------------------------------------------------------------------------------------------------*/   
+                
+                    #PRODUTOS_TITULO{
+                        flex:1;
+                        display:flex;
+                        flex-direction: column;                        
+                        align-content: center;   
+                        margin-bottom: 25px;            
+                    }
+
+                /* #endregion CONTAINER */        
+
+                /* #region > H2 ------------------------------------------------------------------------------------------------------------------------*/   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_H2{
+                        flex:1;
+                        text-align: center;
+                        padding-top: 20px;
+                        color: rgb(95, 95, 95);                   
+                    }
+
+                /* #endregion H2 */     
+                
+                /* #region > LISTA ------------------------------------------------------------------------------------------------------------------------*/   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_LISTA{
+                        flex:1;
+                        text-align: right;   
+                        text-align: center; 
+                        margin-top:-10px;
+                        margin-bottom: 60px;             
+                        /* background-color: blue;  */                              
+                    }
+
+                    /* ELEMENTO */
+                    #PRODUTOS_LISTA > select{   
+                        padding: 5px;                       
+                    }
+
+                    /* ELEMENTO */
+                    #PRODUTOS_LISTA > select:focus{   
+                        outline: none;       
+                    }
+
+                /* #endregion H2 */  
+
+            /* #endregion TITULO */    
+            
+            /* #region > ITENS [ LINHA 2 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+             
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_ITENS{                
+                        flex:1;    
+                        display: flex;
+                        flex-direction: column;    
+                        flex-wrap: wrap;                           
+                        justify-content: space-around;  
+                        gap: 1px;          
+                        margin-top:-30px;       
+                    }  
+                
+                /* #endregion CONTAINER */   
+                
+                /* #region > LINHA UM ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_LINHA_UM{                
+                        flex:1;   
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-around; 
+                    } 
+
+                /* #endregion LINHA UM */
+
+                /* #region > LINHA DOIS ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_LINHA_DOIS{                
+                        flex:1;   
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-around; 
+                    } 
+
+                /* #endregion LINHA DOIS */
+
+                /* #region > LINHA TRES ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_LINHA_TRES{                
+                        flex:1;   
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-around;
+                    } 
+
+                /* #endregion LINHA TRES */
+
+                /* #region > CLASSE ITENS ----------------------------------------------------------------------------------------------------------------------- */   
+                   
+                    /* SECTION */  
+                    .PRODUTO{  
+                        flex:1; 
+                        flex-wrap: wrap;             
+                        min-width: 220px;
+                        max-width: 221px;
+                        padding-right: 20px;
+                        padding-left: 20px;
+                        text-align: center;
+                        margin-bottom: 5px;
+                        transition: transform 0.5s;
+                        cursor:pointer;
+                    }
+
+                    /* SECTION */  
+                    .PRODUTO:hover{  
+                        transform:translateY(-10px);
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_IMAGEM{  
+                        width: 85%;  
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_TITULO{   
+                        margin-top: 5px;                   
+                        margin-bottom: 1px;
+                        color: rgb(95, 95, 95); 
+                        font-weight: normal;
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_PRECO{   
+                        margin-top: 1px;   
+                        margin-bottom: 5px;
+                        font-size: 0.9em;
+                        color: rgb(95, 95, 95); 
+                        font-weight: normal;
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_AVALIACAO .fa{                           
+                        color:#EF2210;
+                    }
+
+                /* #endregion CLASSE ITENS */     
+                
+            /* #endregion ITENS */    
+
+            /* #region > BOTOES [ LINHA 3 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+                
+                    /* CONTAINER */
+                    #PRODUTOS_BOTOES{ 
+                        flex: 1;    
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        text-align: center;  
+                        margin-top: 25px;     
+                        margin-bottom:10px;             
+                    }  
+
+                    /* ELEMENTO */
+                    #PRODUTOS_BOTOES > span{ 
+                        display: flex;                        
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid #EF2210;
+                        margin-left: 10px;  
+                        width: 40px;
+                        height: 40px;          
+                        cursor: pointer;                       
+                    }
+
+                    /* ELEMENTO */
+                    #PRODUTOS_BOTOES > span:hover{
+                        background-color: #EF2210;
+                        color:white;
+                    } 
+                    
+                /* #endregion CONTAINER */
+
+            /* #endregion BOTOES */        
+
+        /* #endregion PRODUTOS */
+      
+        /* #region | FOOTER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_CONTAINER{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;  
+                    justify-content: center;
+                    background-color: black;
+                    font-size: 0.8em;       
+                }   
+
+            /* #endregion CONTAINER */ 
+
+            /* #region > ITENS [ LINHA 1 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_ITENS{
+                    flex:1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-right: 100px;
+                    padding-left: 100px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }   
+
+                /* #region > DOWNLOAD ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_DOWNLOAD{
+                        flex:1;
+                        margin-top: 20px;
+                        padding-bottom: 20px;
+                    }  
+
+                /* #endregion DOWNLOAD */
+
+                /* #region > MISSAO ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_MISSAO{
+                        flex:1;
+                        margin-bottom: -10px;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_MISSAO > img{
+                        width: 180px;
+                    }
+
+                /* #endregion MISSAO */
+
+                /* #region > LINKS ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_LINKS{
+                        flex:1;
+                        margin-bottom: -10px;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_LINKS > ul{
+                        list-style-type: none;
+                        margin-left: -40px;
+                    } 
+
+                /* #endregion LINKS */
+
+                /* #region > SOCIAL MEDIA ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_SOCIAL_MEDIA{
+                        flex:1;
+                        margin-bottom: -10px;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul > li{
+                        margin-left: -40px;
+                    } 
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul{
+                        list-style-type: none;
+                    }
+
+                /* #endregion SOCIAL MEDIA */
+        
+            /* #endregion ITENS [ LINHA 1 ] */ 
+
+            /* #region > ITENS [ LINHA 2 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_COPYRIGHT{
+                    flex:1;         
+                    text-align: center;  
+                    border-top: 1px solid rgb(43, 43, 43);  
+                    margin-top:-10px; 
+                    padding-top:10px;       
+                    padding-bottom:10px;        
+                } 
+                
+
+            /* #endregion ITENS [ LINHA 2 ] */ 
+            
+            /* #region > CLASSES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* ELEMENTO */
+                .PARAGRAFO_CINZA{
+                    color: rgb(95, 95, 95);
+                } 
+
+                /* ELEMENTO */
+                .TITULO_BRANCO{
+                    color: white;
+                } 
+
+                /* ELEMENTO */
+                .APP_LOGO {
+                    margin-top:20px;
+                }
+
+                /* ELEMENTO */
+                .APP_LOGO img {
+                    width: 110px;
+                }
+
+            /* #endregion CLASSES */     
+
+        /* #endregion FOOTER */     
+          
+    /* #endregion MOBILE */
+
+
+/* RESET |                                                                                                                                                           */
+
+	/* #region | ELEMENTOS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/                                                                                                                  */
+	
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            border: none;
+            outline: none;
+            font-weight: 300;
+            box-sizing: border-box;            
+        }
+
+        a{
+            text-decoration: none;
+            color:var(--VAR_COR_CINZA);
+
+        }
+
+        p{
+            color:var(--VAR_COR_CINZA);
+        }
+
+        h1{
+            font-size: 2em; 
+        }
+    
+        h2{
+            font-size: 1.5em;
+        }
+    
+        h3{
+            font-size: 1.17em;
+        }
+    
+        h4{
+            font-size: 1em;
+        }
+        
+    /* #endregion ELEMENTOS */

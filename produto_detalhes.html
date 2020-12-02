@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<head>
+
+	<!-- 1. META-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <!-- Caracteres em português -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Largura da página = largura do dispositivo -->
+	<meta name="description" content="Ecommerce"/>
+	<meta name="keywords" content="html,css, javascript, mariana ramacciotti"/>
+	<meta name="robots" content="HOME, follow"/> <!--Robôs de busca devem indexar a home e seus links -->
+	<meta name="autor" content="Mariana Ramacciotti"/>
+
+	<!-- 2. ICONE -->
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon.ico" />
+    
+	<!-- 3. CARREGAR CSS -->
+	<link rel="stylesheet" href="css/produto_detalhes.css" />
+
+	<!-- 4. CARREGAR BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<!-- 5. CARREGAR GOOGLE FONT -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- 6. TITULO DA PÁGINA-->
+	<title>Detalhes do Produto - RedStore</title>
+
+</head>
+
+<body>
+	
+	<!-- BLOCO | HEADER                                                                                                                                     -->
+	<section id = "HEADER_CONTAINER">
+
+		<!-- SECTION > NAVBAR                                                                                                                           -->
+		<section id="NAVBAR_CONTAINER">
+
+			<!-- LINHA 1 --------------------------------------------------------------------------------------------------------------------------------->
+			<div id="NAVBAR_LINHA_UM">
+
+				<!-- COLUNA 1 -->
+				<div id="NAVBAR_LOGO">
+					<img src="images/png/logo.png">
+				</div>
+
+				<!-- COLUNA 2 -->
+				<div id="NAVBAR_LISTA">            
+					<ul>
+						<li><a href="">Home</a></li>	
+						<li><a href="">Produtos</a></li>	
+						<li><a href="">Sobre</a></li>	
+						<li><a href="">Contato</a></li>	
+						<li><a href="">Conta</a></li>	
+					</ul>			
+				</div>
+				
+				<!-- COLUNA 3 -->
+				<div id="NAVBAR_CARRINHO">    
+					<img src="images/png/cart.png">				
+				</div>
+
+				<!-- COLUNA 4 -->
+				<div id="NAVBAR_LATERAL_ICONE">
+
+					<img src="images/png/menu.png" onclick="ABRIR_MENU()">
+					
+				</div>
+
+			</div>
+
+			<!-- LINHA 2 --------------------------------------------------------------------------------------------------------------------------------->
+			<div id="NAVBAR_LINHA_DOIS">	
+
+				<!-- COLUNA 1  -->
+				<div id="NAVBAR_LATERAL_LISTA">
+					<ul>
+						<li><a href="">Home</a></li>	
+						<li><a href="">Produtos</a></li>	
+						<li><a href="">Sobre</a></li>	
+						<li><a href="">Contato</a></li>	
+						<li><a href="">Conta</a></li>	
+					</ul>	
+				</div>
+
+				<!-- CARREGAR CÓDIGO JAVASCRIPT -->
+				<script type="text/javascript" src="js/javascript.js"></script> 
+
+			</div>
+
+		</section>	
+
+	</section>	
+
+	<!-- BLOCO | PRODUTOS                                                                                                                               -->
+	<section id="PRODUTO_CONTAINER">
+
+		<!-- SECTION > COLUNA 1                                                                                                                                   -->
+		<section id="PRODUTO_IMAGEM"> 
+
+			<!-- LINHA 1 -->
+			<div id="IMAGEM_PRINCIPAL">
+				<img id="FOTO_PRINCIPAL"src="images/jpg/gallery-1.jpg">
+			</div>
+
+			<!-- LINHA 2 -->
+			<div id="IMAGEM_SECUNDARIAS">
+				<img class="OUTRAS_FOTOS" src="images/jpg/gallery-1.jpg">
+				<img class="OUTRAS_FOTOS" src="images/jpg/gallery-2.jpg">
+				<img class="OUTRAS_FOTOS" src="images/jpg/gallery-3.jpg">
+				<img class="OUTRAS_FOTOS" src="images/jpg/gallery-4.jpg">
+			</div>
+
+		</section> 
+
+		<!-- SECTION > COLUNA 2                                                                                                                            -->
+		<section id="PRODUTO_DESCRICAO">
+
+			<!-- LINHA 1 -->
+			<div id="DESCRICAO_TITULO">
+			
+				<p>Home / Camiseta</p>
+				<h1>Red printed T-Shirt <br>by HRX</h1>
+				<h4>R$35,00</h4>
+				<select>
+					<option>Selecionar Tamanho</option>
+					<option>Pequeno</option>
+					<option>Médio</option>
+					<option>Grande</option>			
+				</select>
+
+			</div>
+
+			<!-- LINHA 2 -->
+			<div id="DESCRICAO_QUANTIDADE">			
+				<div id="QUANTIDADE_NUMERO"><p>1</p></div>
+				<div id="QUANTIDADE_BOTAO">
+					<button>Adicionar ao Carrinho</button>
+				</div>
+			</div>
+
+			<!-- LINHA 3 -->
+			<div id="DESCRICAO_TEXTO">			
+				<h4>Detalhes do Produto</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+			</div>
+
+		</section>
+			
+	</section>	
+
+	<!-- BLOCO | FOOTER                                                                                                                                     -->
+	<section id="FOOTER_CONTAINER">	
+	
+		<!-- SECTION > LINHA 1                                                                                                                     -->
+		<section id="FOOTER_ITENS" > 
+			
+			<!-- COLUNA 1 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_DOWNLOAD">
+				<h3 class="TITULO_BRANCO">Nosso Aplicativo</h3>
+				<p class="PARAGRAFO_CINZA">Disponível em Android e Windows Phone.</p>
+				<div class="APP_LOGO">
+					<img src="images/png/play-store.png">
+					<img src="images/png/app-store.png">
+				</div>
+			</div>
+
+			<!-- COLUNA 2 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_MISSAO">
+				<img src="images/png/logo-white.png">
+				<p class="PARAGRAFO_CINZA">Nossa missão é tornar o esporte acessível</p>
+			</div>
+			
+			<!-- COLUNA 3 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_LINKS">
+				<h3 class="TITULO_BRANCO">Links Úteis</h3>
+				<ul class="PARAGRAFO_CINZA">
+					<li>Cupoms</li>
+					<li>Postagens do Blog</li>
+					<li>Política de Retorno</li>
+					<li>Afiliados</li>
+				</ul>
+			</div>
+
+			<!-- COLUNA 4 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_SOCIAL_MEDIA">
+				<h3 class="TITULO_BRANCO">Social Media</h3>
+				<ul class="PARAGRAFO_CINZA">
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>Twitter</li>
+				</ul>
+			</div>		
+			
+		</section>
+
+		<!-- SECTION > LINHA 2                                                                                                                         -->
+		<section id="FOOTER_COPYRIGHT" > 
+			<p class="PARAGRAFO_CINZA">Copyright 2020 - Mariana Ramacciotti</p>
+		</section>
+
+	</section>
+	
+<!-- FIM CÓDIGO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+</body></html>
+
+
+

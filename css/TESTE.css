@@ -1,0 +1,79 @@
+/* #region | DESKTOP XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+@media only screen and (min-width : 768px) {  
+
+    /* #region | NAVBAR CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC*/
+         
+        /* #region > [ CONTAINER ] --------------------------------------------------------------------------------------------------------------------*/
+            
+            #ESTRUTURA_NAVBAR{  
+                background-color: #F8F8F8;
+            }  
+        
+        /* #endregion CONTAINER */
+
+            /* #region [ ITEM 1 > LOGO ] --------------------------------------------------------------------------------------------------------------------*/
+                
+                #NAVBAR_LOGO{  
+                    cursor: pointer;
+                }  
+    
+            /* #endregion [ ITEM 1 ] */
+
+            /* #region [ ITEM 2 > LISTA ] --------------------------------------------------------------------------------------------------------------------*/
+                
+                #NAVBAR_LISTA{  
+                    cursor: pointer;
+                }  
+    
+            /* #endregion [ ITEM 2 ] */
+
+            /* #region [ ITEM 3 > CARRINHO ] --------------------------------------------------------------------------------------------------------------------*/
+                
+                #NAVBAR_CARRINHO{  
+                    cursor: pointer;
+                }  
+
+            /* #endregion [ ITEM 3 ] */
+
+            /* #region [ ITEM 4 > ICONE ] --------------------------------------------------------------------------------------------------------------------*/
+                
+                #NAVBAR_ICONE{  
+                    cursor: pointer;
+                }  
+
+            /* #endregion [ ITEM 4 ] */
+
+    /* #endregion NAVBAR */  
+
+}
+
+/* #region | CLASSES XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.ITEM{
+    flex:1;  
+}
+
+.DIVIDIR_COLUNAS{
+    display:flex;  
+    flex-direction: column;
+    background-color: purple;
+}
+
+.DIVIDIR_LINHAS{
+    display:flex;  
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ALINHAR_ESQUERDA{
+    justify-content: flex-start;
+}
+
+.ALINHAR_DIREITA{
+    justify-content: flex-end;
+}
+
+.ALINHAR_CENTRO_IGUALMENTE{
+    justify-content: space-around;
+}
+

@@ -1,0 +1,1436 @@
+/* DEFAULT | GRID DO SITE                                                                                                                                */
+
+    /* #region | GRID ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    
+        /* CONTAINER */
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column; 
+            margin: 0;
+            padding: 0;
+        } 
+    
+    /* #endregion GRID DO SITE */
+
+/* RESOLUCAO |                                                                                                                                        */
+          
+    /* #region | DESKTOP ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    @media only screen and (min-width : 768px) {  
+          
+        /* #region | HEADER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* FAZ PARTE DO GRID DO BODY */
+                #HEADER_CONTAINER{  
+                    flex: 1; 
+                    background-color: #F8F8F8;
+                }  
+            
+            /* #endregion SECTION */ 
+
+            /* #region > NAVBAR vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER DO NAVBAR */
+                    #NAVBAR_CONTAINER{              
+                        height: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 80px;
+                        padding-right: 80px; 
+                        background-color: #F8F8F8;
+                    }     
+
+                /* #endregion CONTAINER */ 
+
+                /* #region > LINHA UM ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LINHA_UM{  
+                        flex:1;  
+                        height: 100%;
+                        display: flex;  
+                        flex-direction: row; 
+                        align-items: center;  
+                        gap:5px;
+                    }     
+              
+                    /* #region > LOGO ----------------------------------------------------------------------------------------------------------------------- */  
+
+                        /* CONTAINER */
+                        #NAVBAR_LOGO{
+                            flex-basis: 5%;
+                        }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LOGO > img{                                
+                                width: 125px;      
+                            }
+
+                    /* #endregion LOGO */ 
+
+                    /* #region > LISTA ----------------------------------------------------------------------------------------------------------------------- */ 
+                            
+                        /* CONTAINER */    
+                        #NAVBAR_LISTA{
+                            flex-basis: 90%;                      
+                            text-align: right;   
+                            margin-right: 5px;  
+                        }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LISTA > ul{
+                                display: inline-block;
+                                list-style-type: none;
+                            }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LISTA > ul > li{
+                                display: inline-block;
+                                margin-left: 20px;
+                            }  
+
+                    /* #endregion LISTA */
+
+                    /* #region > CARRINHO ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_CARRINHO{
+                            flex-basis: 5%;   
+                            text-align: right;
+                            margin-top: 2px;
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */    
+                        #NAVBAR_CARRINHO > img{
+                            width: 25px;
+                            height: 25px;
+                        }
+
+                    /* #endregion CARRINHO */
+
+                    /* #region > ICONE ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_LATERAL_ICONE{
+                            display: none;    
+                        }
+
+                    /* #endregion ICONE */
+    
+                /* #endregion LINHA UM */ 
+
+                /* #region > LINHA DOIS ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LATERAL_LISTA{  
+                        flex:1;  
+                        background-color: yellow;
+                        display: none;
+                    }     
+
+                /* #endregion LINHA DOIS */ 
+           
+            /* #endregion NAVBAR */            
+
+            /* #region > CAPA vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+    
+                /* #region > CONTAINER  ----------------------------------------------------------------------------------------------------------------------------------- */
+                    
+                    /* SECTION */
+                    #CAPA_CONTAINER{ 
+                        display: flex;
+                        flex-direction: row; 
+                        align-items:center;        
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        padding-top: 30px;
+                        padding-bottom: 60px;  
+                        padding-left: 80px;
+                        padding-right: 80px;             
+                    }
+
+                /* #endregion CONTAINER */
+
+                /* #region > TITULO ----------------------------------------------------------------------------------------------------------------------------------- */
+                   
+                    /* CONTAINER */
+                    #CAPA_TITULO{
+                        flex: 1;  
+                    }
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > h1{
+                            font-size: 3.2em;
+                            line-height: 60px;
+                            margin-bottom: 20px;
+                            margin-top: -10px;
+                        }  
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > #BOTAO_EXPLORAR {
+                            display: inline-block;
+                            color:white;
+                            background-color: #EF2210;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            padding-right: 30px;
+                            padding-left: 30px;
+                            margin-top: 20px;
+                            border:none;
+                            border-radius: 30px;
+                            transition: background 0.5s;
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > #BOTAO_EXPLORAR:hover {
+                            background: #0086C6;
+                            color:white;
+                        }
+
+                /* #endregion COLUNA UM */    
+
+                /* #region > IMAGEM ----------------------------------------------------------------------------------------------------------------------------------- */
+                        
+                    /* CONTAINER */    
+                    #CAPA_FOTO{
+                        flex: 1;     
+                    }    
+
+                        /* ELEMENTO */
+                        #CAPA_FOTO > img{
+                            max-width: 100%;
+                            min-width: 90%;
+                        }   
+                        
+                /* #endregion COLUNA DOIS */         
+            
+            /* #endregion CAPA */
+
+            /* #region > CLASSES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+                        
+                /* ELEMENTO */
+                .NAVBAR_MENU_LATERAL{
+                    width: 25px;
+                    height: 25px;
+                    margin-top:5px;                    
+                }
+            
+            /* #endregion CLASSES */
+
+        /* #endregion HEADER */
+
+        /* #region | PRODUTOS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                      
+                /* CONTAINER */
+                #PRODUTOS_CONTAINER{ 
+                    flex: 1;  
+                    flex-direction: column;       
+                    justify-content: center;
+                    padding-right: 80px;                    
+                    padding-left: 80px;  
+                    padding-bottom: 20px;          
+                    gap: 30px;
+                    text-align: center;                    
+                }  
+
+            /* #endregion CONTAINER */
+
+            /* #region > TITULO vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #PRODUTOS_TITULO{
+                    flex:1;
+                    padding-top: 40px;
+                    padding-bottom: 90px;
+                    position: relative;      
+                }
+
+                /* ELEMENTO */
+                #PRODUTOS_TITULO > h2{
+                    text-align: center; 
+                    position: relative;
+                    color: rgb(95, 95, 95);  
+                    margin-bottom: 3px;    
+                }
+
+                /* ELEMENTO */
+                #PRODUTOS_TITULO::after{
+                    content: '';
+                    background:  #EF2210;  
+                    width: 80px;
+                    height: 5px;
+                    border-radius: 5px;
+                    position: absolute;
+                    bottom: 70;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+            /* #endregion LINHA UM */    
+            
+            /* #region > ITENS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+             
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_ITENS{                
+                        flex:1;    
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;       
+                        justify-content: space-around;  
+                        gap:2px;          
+                        margin-top:-30px;    
+                    } 
+
+                /* #endregion CONTAINER */
+
+                /* #region > CLASSE ITENS ----------------------------------------------------------------------------------------------------------------------- */   
+
+                    /* SECTION */  
+                    .PRODUTO{  
+                        flex:1; 
+                        flex-wrap: wrap;             
+                        min-width: 220px;
+                        max-width: 221px;
+                        text-align: left;
+                        transition: transform 0.5s;
+                        cursor:pointer;
+                        margin-top:5px;
+                    }
+
+                    /* SECTION */  
+                    .PRODUTO:hover{  
+                        transform:translateY(-10px);
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_IMAGEM{  
+                        width: 100%;  
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_TITULO{   
+                        margin-top: 5px;                   
+                        margin-bottom: 1px;
+                        color: rgb(95, 95, 95); 
+                        font-weight: normal;
+                        font-size: 0.9em;
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_PRECO{   
+                        margin-top: 1px;   
+                        margin-bottom: 5px;
+                        font-size: 0.9em;
+                        color: rgb(95, 95, 95); 
+                        font-weight: normal;
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_AVALIACAO .fa{                           
+                        color:#EF2210;
+                    }
+
+                 /* #endregion CLASSE ITENS */    
+                
+            /* #endregion ITENS */    
+
+        /* #endregion PRODUTOS */
+        
+        /* #region | EXCLUSIVOS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #EXCLUSIVOS_CONTAINER{
+                    background-color:#F8F8F8;
+                    display: flex;
+                    flex-direction: row;                    
+                    align-items: stretch;
+                    justify-content: center;   
+                    margin-top: 30px;              
+                }   
+
+            /* #endregion CONTAINER */
+
+            /* #region > IMAGEM vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #EXCLUSIVOS_IMAGEM{
+                    flex:1;     
+                    text-align: right;    
+                    padding-top: 80px;
+                }
+
+                /* CONTAINER */
+                #EXCLUSIVOS_IMAGEM > img{
+                    width: 60%;    
+                }
+
+            /* #endregion IMAGEM */ 
+            
+            /* #region > TEXTO vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #EXCLUSIVOS_TEXTO{
+                    flex:1;
+                    display: flex;  
+                    flex-direction: column;       
+                    text-align: left;  
+                    justify-content: center; 
+                    height: 500px;                    
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > p{
+                    margin-top:-8px;
+                    margin-bottom: -30px;
+                    font-size: 0.9em;                    
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > h1{
+                    margin-bottom: 10px;
+                    font-size: 2.5em;
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > small{
+                    padding-right: 130px;
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > button {
+                    display: inline-block;
+                    color: white;
+                    width: 170px;
+                    background-color: #EF2210;                            
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    margin-top: 25px;
+                    border:none;
+                    border-radius: 30px;
+                    transition: background 0.5s;
+                    cursor: pointer;
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > button:hover {
+                    background: #0086C6;
+                    color:white;
+                }
+
+            /* #endregion IMAGEM */
+
+        /* #endregion EXCLUSIVOS */
+    
+        /* #region | TESTEMUNHAS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_CONTAINER{
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;                    
+                    align-items: stretch;
+                    justify-content: center;          
+                    gap: 30px;  
+                    padding-right: 80px;                    
+                    padding-left: 80px;  
+                    padding-top: 80px;
+                    padding-bottom: 60px;                       
+                }   
+
+            /* #endregion CONTAINER */
+
+            /* #region > TESTEMUNHAS UM vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_UM{
+                    flex:1;                    
+                }   
+
+            /* #endregion TESTEMUNHAS UM */
+
+            /* #region > TESTEMUNHAS DOIS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_DOIS{
+                    flex:1;                                         
+                }   
+
+            /* #endregion TESTEMUNHAS DOIS */
+
+            /* #region > TESTEMUNHAS TRES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_TRES{
+                    flex:1;                       
+                }   
+
+            /* #endregion TESTEMUNHAS TRES */
+
+            /* #region > CLASSE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                .TESTEMUNHAS{
+                    padding: 40px 20px 20px 20px;
+                    text-align: center;
+                    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+                    cursor: pointer;
+                    margin-top: -10px;
+                    transition: transform 0.5s;
+                    min-width: 230px;
+                    max-width: 231px;
+                }
+
+                .TESTEMUNHAS:hover{
+                    transform: translateY(-10px);
+                }
+
+                .TESTEMUNHAS > p {         
+                    font-size: 0.8em;
+                    color: #777;
+                } 
+
+                .TESTEMUNHAS > img {
+                    margin-top:15px;
+                    margin-bottom: 10px;
+                    width: 30%;
+                    border-radius: 50%;
+                } 
+
+                .TESTEMUNHAS > h3 {   
+                    margin-top: -5px;  
+                } 
+
+                .fa.fa-quote-left{
+                    font-size: 2.2em;
+                    color: #EF2210;
+                }
+
+            /* #endregion CLASSE */
+
+        /* #endregion TESTEMUNHAS */
+    
+        /* #region | MARCAS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #MARCAS_CONTAINER{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap; 
+                    justify-content: stretch;
+                    gap: 20px; 
+                    padding-right: 200px;
+                    padding-left: 200px;
+                    margin-bottom: 50px;           
+                }   
+
+            /* #endregion CONTAINER */        
+    
+            /* #region > COLUNAS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #MARCAS_UM,#MARCAS_DOIS,#MARCAS_TRES,#MARCAS_QUATRO,#MARCAS_CINCO{
+                    flex:1;  
+                    max-width: 200px;    
+                    min-width: 100px;            
+                }
+
+                /* ELEMENTO */
+                #MARCAS_UM,#MARCAS_DOIS,#MARCAS_TRES,#MARCAS_QUATRO,#MARCAS_CINCO > img{
+                    filter: grayscale();        
+                }
+
+            /* #endregion COLUNAS */
+    
+    /* #endregion DESKTOP */
+
+        /* #region | FOOTER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_CONTAINER{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;  
+                    justify-content: center;
+                    background-color: black;
+                    font-size: 0.8em;                    
+                }   
+
+            /* #endregion CONTAINER */ 
+
+            /* #region > ITENS [ LINHA 1 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_ITENS{
+                    flex:1;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    padding-right: 100px;
+                    padding-left: 100px;
+                    padding-top: 40px;
+                    gap:20px;   
+                    text-align: center; 
+                    margin-bottom: 10px;             
+                }   
+
+                /* #region > DOWNLOAD ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_DOWNLOAD{
+                        flex:1;
+                    }  
+
+                /* #endregion DOWNLOAD */
+
+                /* #region > MISSAO ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_MISSAO{
+                        flex:1;
+                    }   
+
+                    /* CONTAINER */
+                    #FOOTER_MISSAO > img{
+                        width: 180px;
+                    }
+
+                /* #endregion MISSAO */
+
+                /* #region > LINKS ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_LINKS{
+                        flex:1;
+
+                    } 
+                    
+                    /* ELEMENTO */
+                    #FOOTER_LINKS > ul{
+                        list-style-type: none;
+                        margin-left: -40px;
+                    } 
+
+                /* #endregion LINKS */
+
+                /* #region > SOCIAL MEDIA ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_SOCIAL_MEDIA{
+                        flex:1;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul > li{
+                        margin-left: -40px;
+                    } 
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul{
+                        list-style-type: none;
+                    }
+
+                /* #endregion SOCIAL MEDIA */
+
+            /* #endregion ITENS [ LINHA 1 ] */ 
+
+            /* #region > ITENS [ LINHA 2 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_COPYRIGHT{
+                    flex:1; 
+                    text-align: center;  
+                    border-top: 1px solid rgb(43, 43, 43);  
+                    margin-top:-10px; 
+                    padding-top:10px;       
+                    padding-bottom:10px;       
+                } 
+
+            /* #endregion ITENS [ LINHA 2 ] */ 
+
+            /* #region > CLASSES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* ELEMENTO */
+                .PARAGRAFO_CINZA{
+                    color: rgb(95, 95, 95);
+                } 
+
+                /* ELEMENTO */
+                .TITULO_BRANCO{
+                    color: white;
+                } 
+
+                /* ELEMENTO */
+                .APP_LOGO {
+                    margin-top:20px;
+                }
+
+                /* ELEMENTO */
+                .APP_LOGO img {
+                    width: 110px;
+                }
+
+            /* #endregion CLASSES */ 
+                
+        /* #endregion FOOTER */     
+    
+    }
+
+    /* #endregion DESKTOP */     
+    
+    /* #region | MOBILE ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    @media only screen and (max-width : 768px) {  
+
+        /* #region | HEADER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* FAZ PARTE DO GRID DO BODY */
+                #HEADER_CONTAINER{  
+                    flex: 1; 
+                    background-color: #F8F8F8;
+                }  
+            
+            /* #endregion SECTION */    
+
+            /* #region > NAVBAR vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER DO NAVBAR */
+                    #NAVBAR_CONTAINER{              
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        padding-top:15px;
+                    }     
+
+                /* #endregion CONTAINER */ 
+
+                /* #region > LINHA UM ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LINHA_UM{  
+                        flex:1;  
+                        height: 100%;
+                        display: flex;  
+                        flex-direction: row; 
+                        align-items: center; 
+                        gap:20px;
+                        padding-right:20px;
+                        padding-left:20px;
+                    }     
+              
+                    /* #region > LOGO ----------------------------------------------------------------------------------------------------------------------- */  
+
+                        /* CONTAINER */
+                        #NAVBAR_LOGO{
+                            flex-basis: 90%;
+                        }
+
+                            /* ELEMENTO */
+                            #NAVBAR_LOGO > img{                                
+                                width: 125px;      
+                            }
+
+                    /* #endregion LOGO */ 
+
+                    /* #region > LISTA ----------------------------------------------------------------------------------------------------------------------- */ 
+                            
+                        /* CONTAINER */    
+                        #NAVBAR_LISTA{
+                            display: none; 
+                        }
+
+                    /* #endregion LISTA */
+
+                    /* #region > CARRINHO ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_CARRINHO{
+                            flex-basis: 5%;   
+                            text-align: right;
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */    
+                        #NAVBAR_CARRINHO > img{                            
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                    /* #endregion CARRINHO */
+
+                    /* #region > ICONE ---------------------------------------------------------------------------------------------------------------------- */
+
+                        /* CONTAINER */    
+                        #NAVBAR_LATERAL_ICONE{
+                            flex-basis: 5%;  
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */    
+                        #NAVBAR_LATERAL_ICONE > img{
+                            padding-top:4px;
+                            width: 28px;
+                            height: 30px;
+                        }
+
+                    /* #endregion ICONE */
+    
+                /* #endregion LINHA UM */ 
+
+                /* #region > LINHA DOIS ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #NAVBAR_LATERAL_LISTA{  
+                        flex:1;  
+                        background-color: #333;
+                        margin-bottom: -40px;
+                        margin-top: -7px;
+                        text-align: right;
+                    }  
+
+                    /* ELEMENTO */
+                    #NAVBAR_LATERAL_LISTA > ul{
+                        list-style-type: none;   
+                        padding-bottom: 15px;
+                        padding-top: 5px;
+                    }    
+                    
+                    /* ELEMENTO */
+                    #NAVBAR_LATERAL_LISTA > ul > li{
+                        margin-top: 10px;
+                        color:white;
+                        padding-right: 30px;                        
+                    } 
+
+                /* #endregion LINHA DOIS */ 
+           
+            /* #endregion NAVBAR */          
+
+            /* #region > CAPA vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+    
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------------------- */
+                    
+                    /* SECTION */
+                    #CAPA_CONTAINER{ 
+                        display: flex;
+                        text-align: center;
+                        flex-direction: column; 
+                        align-items:center;        
+                        justify-content: center;
+                        padding-left: 20px;
+                        padding-right: 20px;          
+                    }
+
+                /* #endregion CONTAINER */
+
+                /* #region > TITULO ----------------------------------------------------------------------------------------------------------------------------------- */
+                   
+                    /* CONTAINER */
+                    #CAPA_TITULO{
+                        flex: 1;  
+                    }
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > h1{
+                            font-size: 3.2em;
+                            line-height: 60px;
+                            margin-top: 40px;
+                            margin-bottom: 0px;
+                        }  
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > #BOTAO_EXPLORAR {
+                            display: inline-block;
+                            color:white;
+                            background-color: #EF2210;                       
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            padding-right: 30px;
+                            padding-left: 30px;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            border:none;
+                            border-radius: 30px;
+                            transition: background 0.5s;
+                            cursor: pointer;
+                        }
+
+                        /* ELEMENTO */
+                        #CAPA_TITULO > #BOTAO_EXPLORAR:hover {
+                            background: #563434;
+                        }
+
+                /* #endregion COLUNA UM */    
+
+                /* #region > IMAGEM ----------------------------------------------------------------------------------------------------------------------------------- */
+                        
+                    /* CONTAINER */    
+                    #CAPA_FOTO{
+                        flex: 1;  
+                    }    
+
+                        /* ELEMENTO */
+                        #CAPA_FOTO > img{
+                            min-width: 300px;
+                            max-width: 60%;
+                            margin-top:30px;
+                            margin-bottom: 30px;
+                        }   
+                        
+                /* #endregion COLUNA DOIS */         
+            
+        /* #endregion HEADER */
+           
+        /* #endregion HEADER */
+
+        /* #region | PRODUTOS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                      
+                /* CONTAINER */
+                #PRODUTOS_CONTAINER{ 
+                    flex: 1;  
+                    flex-direction: column;       
+                    justify-content: center;   
+                    gap: 30px;
+                    text-align: center;
+                    margin-bottom: 30px;                    
+                }  
+
+            /* #endregion CONTAINER */
+
+            /* #region > TITULO vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #PRODUTOS_TITULO{
+                    flex:1;
+                    text-align: center;  
+                    align-items: center;
+                    padding-top: 20px;   
+                    padding-bottom: 80px;   
+                }
+
+                /* ELEMENTO */
+                #PRODUTOS_TITULO > h2{
+                    position: relative;
+                    color: rgb(95, 95, 95);  
+                    margin-bottom: 3px;    
+                }
+
+                /* ELEMENTO */
+                #PRODUTOS_TITULO::after{
+                    content: '';
+                    background:  #EF2210;  
+                    width: 80px;
+                    height: 5px;
+                    border-radius: 5px;
+                    position: absolute;
+                    bottom: 70;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+            /* #endregion LINHA UM */    
+            
+            /* #region > ITENS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+             
+                /* #region > CONTAINER ----------------------------------------------------------------------------------------------------------------------- */   
+            
+                    /* CONTAINER */
+                    #PRODUTOS_ITENS{                
+                        flex:1;    
+                        display: flex;
+                        flex-direction: row;    
+                        flex-wrap: wrap;                           
+                        justify-content: space-around;  
+                        gap: 1px;          
+                        margin-top:-30px;       
+                    }  
+                
+                /* #endregion CONTAINER */   
+                
+                /* #region > CLASSE ITENS ----------------------------------------------------------------------------------------------------------------------- */   
+                   
+                    /* SECTION */  
+                    .PRODUTO{  
+                        flex:1; 
+                        flex-wrap: wrap;             
+                        min-width: 220px;
+                        max-width: 221px;
+                        text-align: center;
+                        margin-bottom: 5px;
+                        transition: transform 0.5s;
+                        cursor:pointer;
+                    }
+
+                    /* SECTION */  
+                    .PRODUTO:hover{  
+                        transform:translateY(-10px);
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_IMAGEM{  
+                        width: 85%;  
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_TITULO{   
+                        margin-top: 5px;                   
+                        margin-bottom: 1px;
+                        color: rgb(95, 95, 95); 
+                        font-weight: normal;
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_PRECO{   
+                        margin-top: 1px;   
+                        margin-bottom: 5px;
+                        font-size: 0.9em;
+                        color: rgb(95, 95, 95); 
+                        font-weight: normal;
+                    }
+
+                    /* ELEMENTO */
+                    .PRODUTO_AVALIACAO .fa{                           
+                        color:#EF2210;
+                    }
+
+                /* #endregion CLASSE ITENS */     
+                
+            /* #endregion ITENS */    
+
+        /* #endregion PRODUTOS */
+           
+        /* #region | EXCLUSIVOS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #EXCLUSIVOS_CONTAINER{
+                    background-color: #F8F8F8;
+                    display: flex;
+                    flex-direction: column-reverse;                    
+                    align-items: center;
+                    justify-content: center;   
+                    margin-top: 10px;        
+                    padding-top: 20px; 
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }   
+
+            /* #endregion CONTAINER */
+
+            /* #region > TEXTO vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #EXCLUSIVOS_TEXTO{
+                    flex:1;
+                    display: flex;  
+                    flex-direction: column;       
+                    text-align: center;  
+                    justify-content: center; 
+                    align-items: center;
+                    height: 500px;
+                    padding-bottom: 10px;
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > p{
+                    margin-top:20px;
+                    margin-bottom: -30px;
+                    font-size: 0.9em;
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > h1{
+                    margin-bottom: 10px;
+                    font-size: 2.5em;
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > button {
+                    text-align: center;  
+                    color: white;
+                    width: 170px;
+                    background-color: #EF2210;                            
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    margin-top: 25px;
+                    border:none;
+                    border-radius: 30px;
+                    transition: background 0.5s;
+                    cursor: pointer;
+                }
+
+                /* ELEMENTO */
+                #EXCLUSIVOS_TEXTO > button:hover {
+                    background: #0086C6;
+                    color:white;
+                    text-align: center;  
+                }
+
+            /* #endregion IMAGEM */
+
+            /* #region > IMAGEM vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #EXCLUSIVOS_IMAGEM{
+                    flex:1;     
+                    text-align: center;    
+                    padding-top: 20px;
+                    padding-bottom: 50px;
+                }
+
+                /* CONTAINER */
+                #EXCLUSIVOS_IMAGEM > img{
+                    width: 60%;    
+                }
+
+            /* #endregion IMAGEM */ 
+                
+
+        /* #endregion EXCLUSIVOS */
+    
+        /* #region | TESTEMUNHAS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_CONTAINER{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;  
+                    justify-content: center;
+                    padding-top: 60px;  
+                    padding-right: 30px;                    
+                    padding-left: 30px; 
+                    padding-bottom: 40px; 
+                    gap: 30px;                   
+                }   
+
+            /* #endregion CONTAINER */
+
+            /* #region > TESTEMUNHAS UM vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_UM{
+                    flex:1;                    
+                }   
+
+            /* #endregion TESTEMUNHAS UM */
+
+            /* #region > TESTEMUNHAS DOIS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_DOIS{
+                    flex:1;                                         
+                }   
+
+            /* #endregion TESTEMUNHAS DOIS */
+
+            /* #region > TESTEMUNHAS TRES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #TESTEMUNHAS_TRES{
+                    flex:1;                       
+                }   
+
+            /* #endregion TESTEMUNHAS TRES */
+
+            /* #region > CLASSE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* #region > CLASSE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                .TESTEMUNHAS{
+                    padding: 40px 20px 20px 20px;
+                    text-align: center;
+                    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+                    cursor: pointer;
+                    margin-top: -10px;
+                    transition: transform 0.5s;
+                    min-width: 230px;
+                    max-width: 231px;
+                }
+
+                .TESTEMUNHAS:hover{
+                    transform: translateY(-10px);
+                }
+
+                .TESTEMUNHAS > p {         
+                    font-size: 0.8em;
+                    color: #777;
+                } 
+
+                .TESTEMUNHAS > img {
+                    margin-top:15px;
+                    margin-bottom: 10px;
+                    width: 30%;
+                    border-radius: 50%;
+                } 
+
+                .TESTEMUNHAS > h3 {   
+                    margin-top: -5px;  
+                } 
+
+                .fa.fa-quote-left{
+                    font-size: 2.2em;
+                    color: #EF2210;
+                }
+
+            /* #endregion CLASSE */
+
+        /* #endregion TESTEMUNHAS */        
+    
+    /* #endregion MOBILE */
+
+        /* #region | MARCAS cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+            
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #MARCAS_CONTAINER{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    gap: 10px; 
+                    padding-right: 20px;
+                    padding-left: 20px;
+                    margin-bottom: 20px;
+                }   
+
+            /* #endregion CONTAINER */        
+    
+            /* #region > COLUNAS vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+            
+                /* CONTAINER */
+                #MARCAS_UM,#MARCAS_DOIS,#MARCAS_TRES,#MARCAS_QUATRO,#MARCAS_CINCO{
+                    flex:1;   
+                    min-width:120px;  
+                    max-width: 105px;  
+                    align-self: flex-start
+                }
+
+                /* ELEMENTO */
+                #MARCAS_UM,#MARCAS_DOIS,#MARCAS_TRES,#MARCAS_QUATRO,#MARCAS_CINCO > img{
+                    filter: grayscale();        
+                }
+
+            /* #endregion COLUNAS */
+    
+    /* #endregion DESKTOP */
+        
+        /* #region | FOOTER cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+        
+            /* #region > CONTAINER vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_CONTAINER{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;  
+                    justify-content: center;
+                    background-color: black;
+                    font-size: 0.8em;       
+                }   
+
+            /* #endregion CONTAINER */ 
+
+            /* #region > ITENS [ LINHA 1 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_ITENS{
+                    flex:1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-right: 100px;
+                    padding-left: 100px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }   
+
+                /* #region > DOWNLOAD ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_DOWNLOAD{
+                        flex:1;
+                        margin-top: 20px;
+                        padding-bottom: 20px;
+                    }  
+
+                /* #endregion DOWNLOAD */
+
+                /* #region > MISSAO ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_MISSAO{
+                        flex:1;
+                        margin-bottom: -10px;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_MISSAO > img{
+                        width: 180px;
+                    }
+
+                /* #endregion MISSAO */
+
+                /* #region > LINKS ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_LINKS{
+                        flex:1;
+                        margin-bottom: -10px;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_LINKS > ul{
+                        list-style-type: none;
+                        margin-left: -40px;
+                    } 
+
+                /* #endregion LINKS */
+
+                /* #region > SOCIAL MEDIA ----------------------------------------------------------------------------------------------------------------------------*/   
+                    
+                    /* CONTAINER */
+                    #FOOTER_SOCIAL_MEDIA{
+                        flex:1;
+                        margin-bottom: -10px;
+                    }   
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul > li{
+                        margin-left: -40px;
+                    } 
+
+                    /* ELEMENTO */
+                    #FOOTER_SOCIAL_MEDIA > ul{
+                        list-style-type: none;
+                    }
+
+                /* #endregion SOCIAL MEDIA */
+        
+            /* #endregion ITENS [ LINHA 1 ] */ 
+
+            /* #region > ITENS [ LINHA 2 ] vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* CONTAINER */
+                #FOOTER_COPYRIGHT{
+                    flex:1;         
+                    text-align: center;  
+                    border-top: 1px solid rgb(43, 43, 43);  
+                    margin-top:-10px; 
+                    padding-top:10px;       
+                    padding-bottom:10px;        
+                } 
+                
+
+            /* #endregion ITENS [ LINHA 2 ] */ 
+            
+            /* #region > CLASSES vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/   
+                
+                /* ELEMENTO */
+                .PARAGRAFO_CINZA{
+                    color: rgb(95, 95, 95);
+                } 
+
+                /* ELEMENTO */
+                .TITULO_BRANCO{
+                    color: white;
+                } 
+
+                /* ELEMENTO */
+                .APP_LOGO {
+                    margin-top:20px;
+                }
+
+                /* ELEMENTO */
+                .APP_LOGO img {
+                    width: 110px;
+                }
+
+            /* #endregion CLASSES */     
+
+        /* #endregion FOOTER */     
+          
+    /* #endregion MOBILE */
+
+/* VARIAVEIS |                                                                                                                                                    */
+
+	/* #region | VARIÁVEIS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/                                                                                                                        */
+				
+        :root {
+            --VAR_COR_CINZA: rgb(95, 95, 95);  
+            --VAR_COR_VERMELHA: #EF2210;
+        }  
+
+    /* #endregion VARIAVEIS */    
+
+/* RESET |                                                                                                                                                           */
+
+	/* #region | ELEMENTOS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/                                                                                                                  */
+	
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            border: none;
+            outline: none;
+            font-weight: 300;
+            box-sizing: border-box;            
+        }
+
+        a{
+            text-decoration: none;
+            color:var(--VAR_COR_CINZA);
+
+        }
+
+        p{
+            color:var(--VAR_COR_CINZA);
+        }
+
+        h1{
+            font-size: 2em; 
+        }
+    
+        h2{
+            font-size: 1.5em;
+        }
+    
+        h3{
+            font-size: 1.17em;
+        }
+    
+        h4{
+            font-size: 1em;
+        }
+        
+    /* #endregion ELEMENTOS */

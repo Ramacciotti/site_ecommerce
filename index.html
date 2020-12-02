@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<head>
+
+	<!-- 1. META-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <!-- Caracteres em português -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Largura da página = largura do dispositivo -->
+	<meta name="description" content="Ecommerce"/>
+	<meta name="keywords" content="html,css, javascript, mariana ramacciotti"/>
+	<meta name="robots" content="HOME, follow"/> <!--Robôs de busca devem indexar a home e seus links -->
+	<meta name="autor" content="Mariana Ramacciotti"/>
+
+	<!-- 2. ICONE -->
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon.ico" />
+    
+	<!-- 3. CARREGAR CSS -->
+	<link rel="stylesheet" href="css/index.css" />
+
+	<!-- 4. CARREGAR BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<!-- 5. CARREGAR GOOGLE FONT -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- 6. TITULO DA PÁGINA-->
+	<title>RedStore | E-Commerce</title>
+
+</head>
+
+<body>
+	
+	<!-- BLOCO | HEADER                                                                                                                                     -->
+	<section id = "HEADER_CONTAINER">
+
+		<!-- SECTION > NAVBAR                                                                                                                           -->
+		<section id="NAVBAR_CONTAINER">
+
+			<!-- LINHA 1 --------------------------------------------------------------------------------------------------------------------------------->
+			<div id="NAVBAR_LINHA_UM">
+
+				<!-- COLUNA 1 -->
+				<div id="NAVBAR_LOGO">
+					<img src="images/png/logo.png">
+				</div>
+
+				<!-- COLUNA 2 -->
+				<div id="NAVBAR_LISTA">            
+					<ul>
+						<li><a href="">Home</a></li>	
+						<li><a href="">Produtos</a></li>	
+						<li><a href="">Sobre</a></li>	
+						<li><a href="">Contato</a></li>	
+						<li><a href="">Conta</a></li>	
+					</ul>			
+				</div>
+				
+				<!-- COLUNA 3 -->
+				<div id="NAVBAR_CARRINHO">    
+					<img src="images/png/cart.png">				
+				</div>
+
+				<!-- COLUNA 4 -->
+				<div id="NAVBAR_LATERAL_ICONE">
+
+					<img src="images/png/menu.png" onclick="ABRIR_MENU()">
+					
+				</div>
+
+			</div>
+
+			<!-- LINHA 2 --------------------------------------------------------------------------------------------------------------------------------->
+			<div id="NAVBAR_LINHA_DOIS">	
+
+				<!-- COLUNA 1  -->
+				<div id="NAVBAR_LATERAL_LISTA">
+					<ul>
+						<li><a href="">Home</a></li>	
+						<li><a href="">Produtos</a></li>	
+						<li><a href="">Sobre</a></li>	
+						<li><a href="">Contato</a></li>	
+						<li><a href="">Conta</a></li>	
+					</ul>	
+				</div>
+
+				<!-- CARREGAR CÓDIGO JAVASCRIPT -->
+				<script type="text/javascript" src="js/javascript.js"></script> 
+
+			</div>
+
+		</section>	
+		
+		<!-- SECTION > CAPA                                                                                                                          -->
+		<section id="CAPA_CONTAINER">
+
+			<!-- COLUNA UM --------------------------------------------------------------------------------------------------------------------------------->
+			<div id="CAPA_TITULO">
+
+				<h1>Dê ao seu treino <br> um Novo Estilo!</h1>
+				<p> Sucesso não se trata de grandeza,<br> e sim de consistência. </p>
+				<button id="BOTAO_EXPLORAR" class="BOTAO_VERMELHO">Explore agora! &#10132;</button>
+
+			</div>
+			
+			<!-- COLUNA DOIS --------------------------------------------------------------------------------------------------------------------------------->
+			<div id="CAPA_FOTO">
+				
+				<img src="images/png/man_running.png" alt="">
+
+			</div>
+			
+		</section>
+
+	</section>	
+
+	<!-- BLOCO | PRODUTOS                                                                                                                               -->
+	<section id="PRODUTOS_CONTAINER">
+
+		<!-- SECTION > LINHA UM                                                                                                                     -->
+		<section id="PRODUTOS_TITULO"> 			
+			<h2>Todos os Produtos</h2>
+		</section>
+
+		<!-- SECTION > LINHA DOIS                                                                                                                           -->
+		<section id="PRODUTOS_ITENS"> 
+
+			<!-- PRODUTO 1 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-1.jpg">
+				<h4 class="PRODUTO_TITULO">Camiseta Vermelha</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+
+			<!-- PRODUTO 2 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-2.jpg">
+				<h4 class="PRODUTO_TITULO">Tênis Preto</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+
+			<!-- PRODUTO 3 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-3.jpg">
+				<h4 class="PRODUTO_TITULO">Calça Marrom</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+
+			<!-- PRODUTO 4 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-4.jpg">
+				<h4 class="PRODUTO_TITULO">Blusa Azul</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+
+			<!-- PRODUTO 5 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-5.jpg">
+				<h4 class="PRODUTO_TITULO">Tênis Branco</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+
+			<!-- PRODUTO 6 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-6.jpg">
+				<h4 class="PRODUTO_TITULO">Camiseta Preta</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+
+			<!-- PRODUTO 7 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-7.jpg">
+				<h4 class="PRODUTO_TITULO">Meias</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+
+			<!-- PRODUTO 8 --------------------------------------------------------------------------------------------------------------------------------->
+			<div class="PRODUTO">
+				<img class="PRODUTO_IMAGEM" src="images/jpg/product-8.jpg">
+				<h4 class="PRODUTO_TITULO">Relógio</h4>
+				<div class="PRODUTO_AVALIACAO">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<p class="PRODUTO_PRECO">R$35,90</p>				
+			</div>
+	
+		</section>
+
+	</section>		
+		
+	<!-- BLOCO | EXCLUSIVOS                                                                                                                                 -->
+	<section id="EXCLUSIVOS_CONTAINER">	
+
+		<!-- SECTION > LINHA UM                                                                                                                     -->
+		<section id="EXCLUSIVOS_IMAGEM"> 
+			<img src="images/png/exclusive.png">
+		</section>
+		
+		<!-- SECTION > LINHA DOIS                                                                                                                    -->
+		<section id="EXCLUSIVOS_TEXTO"> 
+			<p>Disponível exclusivamente na RedStore</p>
+			<h1>Smart Band 4</h1>
+			<small>O Mi Smart Band 4 apresenta uma tela full-touch com brilho ajustável 39.9% maior que o modelo anterior; mais claro impossível!</small>
+			<button id="EXCLUSIVOS_BOTAO" class="BOTAO_VERMELHO">Compre Agora &#10132;</button>
+		</section>	
+
+	</section>
+	
+	<!-- BLOCO | TESTEMUNHAS                                                                                                                          -->
+	<section id="TESTEMUNHAS_CONTAINER">	
+
+		<!-- SECTION > COLUNA UM                                                                                                                     -->
+		<section id="TESTEMUNHAS_UM" class="TESTEMUNHAS"> 
+			<i class="fa fa-quote-left"></i>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="PRODUTO_AVALIACAO">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<img src="images/png/user-1.png" alt="">
+			<h3>Clarice Aparecida</h3>
+		</section>
+		
+		<!-- SECTION > COLUNA DOIS                                                                                                                    -->
+		<section id="TESTEMUNHAS_DOIS" class="TESTEMUNHAS"> 
+			<i class="fa fa-quote-left"></i>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="PRODUTO_AVALIACAO">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<img src="images/png/user-2.png" alt="">
+			<h3>Marcos Miranda</h3>
+		</section>
+
+		<!-- SECTION > COLUNA TRES                                                                                                                    -->
+		<section id="TESTEMUNHAS_TRES" class="TESTEMUNHAS"> 
+			<i class="fa fa-quote-left"></i>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="PRODUTO_AVALIACAO">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<img src="images/png/user-3.png" alt="">
+			<h3>Julia Dias Nogueira</h3>
+		</section>
+
+	</section>
+
+	<!-- BLOCO | MARCAS                                                                                                                          -->
+	<section id="MARCAS_CONTAINER">	
+
+		<!-- SECTION > COLUNA UM                                                                                                                     -->
+		<section id="MARCAS_UM" class="MARCAS"> 
+			<img class="PRODUTO_IMAGEM" src="images/png/logo-godrej.png">
+		</section>
+		
+		<!-- SECTION > COLUNA DOIS                                                                                                                    -->
+		<section id="MARCAS_DOIS" class="MARCAS"> 			
+			<img class="PRODUTO_IMAGEM" src="images/png/logo-oppo.png">
+		</section>
+
+		<!-- SECTION > COLUNA TRES                                                                                                                    -->
+		<section id="MARCAS_TRES" class="MARCAS"> 
+			<img class="PRODUTO_IMAGEM" src="images/png/logo-coca-cola.png">
+		</section>
+
+		<!-- SECTION > COLUNA QUATRO                                                                                                                  -->
+		<section id="MARCAS_QUATRO" class="MARCAS"> 
+			<img class="PRODUTO_IMAGEM" src="images/png/logo-paypal.png">
+		</section>
+
+		<!-- SECTION > COLUNA CINCO                                                                                                                   -->
+		<section id="MARCAS_CINCO" class="MARCAS"> 
+			<img class="PRODUTO_IMAGEM" src="images/png/logo-philips.png">
+		</section>
+
+	</section>
+
+	<!-- BLOCO | FOOTER                                                                                                                                     -->
+	<section id="FOOTER_CONTAINER">	
+	
+		<!-- SECTION > LINHA 1                                                                                                                     -->
+		<section id="FOOTER_ITENS" > 
+			
+			<!-- COLUNA 1 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_DOWNLOAD">
+				<h3 class="TITULO_BRANCO">Nosso Aplicativo</h3>
+				<p class="PARAGRAFO_CINZA">Disponível em Android e Windows Phone.</p>
+				<div class="APP_LOGO">
+					<img src="images/png/play-store.png">
+					<img src="images/png/app-store.png">
+				</div>
+			</div>
+
+			<!-- COLUNA 2 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_MISSAO">
+				<img src="images/png/logo-white.png">
+				<p class="PARAGRAFO_CINZA">Nossa missão é tornar o esporte acessível</p>
+			</div>
+			
+			<!-- COLUNA 3 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_LINKS">
+				<h3 class="TITULO_BRANCO">Links Úteis</h3>
+				<ul class="PARAGRAFO_CINZA">
+					<li>Cupoms</li>
+					<li>Postagens do Blog</li>
+					<li>Política de Retorno</li>
+					<li>Afiliados</li>
+				</ul>
+			</div>
+
+			<!-- COLUNA 4 -------------------------------------------------------------------------------------------------------------------------------->
+			<div id="FOOTER_SOCIAL_MEDIA">
+				<h3 class="TITULO_BRANCO">Social Media</h3>
+				<ul class="PARAGRAFO_CINZA">
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>Twitter</li>
+				</ul>
+			</div>		
+			
+		</section>
+
+		<!-- SECTION > LINHA 2                                                                                                                         -->
+		<section id="FOOTER_COPYRIGHT" > 
+			<p class="PARAGRAFO_CINZA">Copyright 2020 - Mariana Ramacciotti</p>
+		</section>
+
+	</section>
+	
+<!-- FIM CÓDIGO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+</body></html>
+
+
+
